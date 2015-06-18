@@ -8,13 +8,22 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "tape": "^4.0.0"
+    "tape": "^4.0.0",
+    "tap-finished": "0.0.1",
+    "runtime-tools": "^0.5.0",
+    "runtimeify": "^0.4.0",
+    "runtimejs": "^0.1.15"
   },
   "homepage": "https://github.com/arielabreu/runtime-shell#readme",
   "bugs": {
     "url": "https://github.com/arielabreu/runtime-shell/issues"
   },
-  "keywords": [ "runtime", "runtimejs", "shell", "runtime-shell" ],
+  "keywords": [
+    "runtime",
+    "runtimejs",
+    "shell",
+    "runtime-shell"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arielabreu/runtime-shell.git"
