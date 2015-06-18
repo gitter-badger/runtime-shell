@@ -2,7 +2,8 @@ language: node_js
 
 sudo: required
 before_install:
-  - sudo apt-get install qemu-system-x86_64
+  - sudo apt-get update -qq
+  - sudo apt-get install -y qemu-system-x86_64
 
 node_js:
 - '0.12'
