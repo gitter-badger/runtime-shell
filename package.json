@@ -1,0 +1,25 @@
+{
+  "name": "runtime-shell",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/arielabreu/runtime-shell#readme",
+  "bugs": {
+    "url": "https://github.com/arielabreu/runtime-shell/issues"
+  },
+  "keywords": [ "runtime", "runtimejs", "shell", "runtime-shell" ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arielabreu/runtime-shell.git"
+  },
+  "author": {
+    "name": "Ariel Abreu",
+    "email": "ariel.abreu@outlook.com"
+  }
+}
