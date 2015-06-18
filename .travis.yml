@@ -1,9 +1,9 @@
-addons:
-  apt:
-    sources:
-      - qemu-system-x86_64
-
 language: node_js
+
+sudo: required
+before_install:
+  - sudo apt-get install qemu-system-x86_64
+
 node_js:
 - '0.12'
 deploy:
