@@ -1,7 +1,7 @@
 'use strict';
 
 const test = require('tape');
-  const rshell = require('runtime-shell');
+const rshell = require('../');
 
 test('is a function', function(t) {
   t.equal(typeof rshell, 'function');
