@@ -1,6 +1,7 @@
 {
   "name": "runtime-shell",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "Some useful shell commands for runtime.js",
   "main": "index.js",
   "scripts": {
     "test": "node test/run.js"
