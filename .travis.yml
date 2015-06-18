@@ -1,3 +1,11 @@
 language: node_js
 node_js:
-  - "0.12"
+- '0.12'
+deploy:
+  provider: npm
+  email: ariel.abreu@outlook.com
+  api_key:
+    secure: KmBsL1MeGoqR4ZxnghKz++Q5hbmAuZTxJ0faEU5xfqHyAsD2PRmJijAbZgzpQoZg9J34SokLCLzH06QIz+/YsDuj4ciIJw8ep7Cd2ADHtFfKUKxTAjnjXByNxah0k6KoTdDYkbQ9VS77BrxkOiXO9BFyh3gUywBOcKH0llLYdLXhYsQDghGaIktzcdKQTgeoGpNoEhWIsYHkEXl//TrDexk9ZYqKKcsclyChvaFc3QgkymMgXgqP8UB4nt55im1sLM7so3OyhLyHh2sOwyipZMRqfOSKBPXSPg72/usqId4pmggECb2I52AT8F531GAHZhFyAIxZwNFIuVxZ02VoWyEZMb95kAJs+7DmhCnUJDfglWjOQMC/A0XkynSl7xzbNKpD34Us2/2gj4XnJ949ZxFPHMJwYN1hM3uQisAzYsZ2l+Wj1RZqH1M941k6KomghiFd2AfK2Ha3/pmTZfA67puFCsziBpLzMnZOSoSlgRTPvJGlgXjYJ2dISb7QlAYVVmwoxa0DpLytOQn7SZMxCMjxfiu0sg4eGe/TYX22RkHKHZagrh0XP1Ou/+Ys+0ZurSoUesv97GBlzpDtmKePuYBELU+ola7P/JRNESHBoYpxxh5SXf3HZYhwtK+LAqCYLpp2bECKJCMg9T54dshTYo6mJDdv96VgwKZ86GnXL1k=
+  on:
+    tags: true
+    repo: ArielAbreu/runtime-shell
