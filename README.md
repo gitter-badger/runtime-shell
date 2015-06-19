@@ -3,8 +3,8 @@ Shell commands for runtimejs
 
 Usage:
 ```javascript
-// Note the '()' at the end, this loads the commands.
-var rshell = require('runtime-shell')();
+// You must have loaded 'runtimejs' already, that's the argument passed to it.
+var rshell = require('runtime-shell')(runtime);
 rshell.version; // Returns version (only export for now)
 ```
 Commands (as of v0.0.2):
