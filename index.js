@@ -1,10 +1,7 @@
 'use strict';
 
-module.exports = function() {
+module.exports = function(runtime) {
   try {
-    // runtime.js core module
-    const runtime = require('runtimejs');
-
     // Load commands
     require('./lib/clear.js')(runtime);
     require('./lib/echo.js')(runtime);
