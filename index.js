@@ -1,8 +1,5 @@
 'use strict';
 
-// For version:
-const pkg = require(__dirname + '/package.json');
-
 module.exports = function() {
   // runtime.js core module
   const runtime = require('runtimejs');
@@ -14,4 +11,4 @@ module.exports = function() {
   require('./lib/power.js')(runtime);
 }
 
-module.exports.prototype.version = pkg.version;
+module.exports.prototype.version = "0.0.5";
