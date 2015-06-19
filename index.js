@@ -17,4 +17,4 @@ module.exports = function() {
   }
 }
 
-module.exports.version = "0.0.5";
+module.exports.version = "0.0.6";
