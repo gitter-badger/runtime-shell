@@ -15,7 +15,7 @@ test('has a version', function(t) {
 
 test('creates shell commands without errors', function(t) {
   try {
-    rshell();
+    t.equal(rshell(), undefined);
   } catch(e) {
     t.fail();
   }
