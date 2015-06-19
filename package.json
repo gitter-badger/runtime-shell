@@ -1,6 +1,6 @@
 {
   "name": "runtime-shell",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Some useful shell commands for runtime.js",
   "main": "index.js",
   "scripts": {

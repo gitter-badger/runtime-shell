@@ -14,4 +14,4 @@ module.exports = function(runtime) {
   }
 }
 
-module.exports.version = "0.0.6";
+module.exports.version = require('./package.json').version;
